@@ -1,0 +1,79 @@
+﻿label {
+	position:relative
+}
+body, html {
+	margin:0;
+	padding:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px
+}
+h2 {
+	text-align:center;
+	color:#555
+}
+.area-geral {
+	border-bottom:0;
+	margin:0 auto;
+	width:100%;
+	max-width:1105px;
+	overflow:hidden;
+	background:rgba(0, 0, 0, 0);
+	margin-top:43px
+}
+.area-formulario {
+	width:300px;
+	margin:50px auto
+}
+.area-formulario form {
+	width:300px
+}
+.area-formulario input {
+	width:93%;
+	padding:10px;
+	margin-bottom:10px;
+	font-size:13px;
+	background:#fff;
+	color:#444;
+	border:1px solid #ddd;
+	outline:0
+}
+.texto {
+	position:absolute;
+	left:-225px;
+	top:-10px;
+	text-align:right;
+	width:210px;
+	height:36px;
+	vertical-align:middle;
+	display:table-cell;
+	margin:0
+}
+.borda-sucesso {
+	border-color:#390!important
+}
+.borda-erro {
+	border-color:#C33!important
+}
+.cor-sucesso {
+	color:#390
+}
+.cor-erro {
+	color:#C33
+}
+.resposta {
+	display:block;
+	width:25px;
+	height:31px;
+	background-repeat:no-repeat;
+	position:absolute;
+	right:5px;
+	top:-7px;
+	background-color:#fff;
+	background-position:7px 10px
+}
+.sucesso {
+	background-image:url(sucesso.png)
+}
+.erro {
+	background-image:url(erro.png)
+}

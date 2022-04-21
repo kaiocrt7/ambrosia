@@ -1,0 +1,8 @@
+------------ No arquivo php.ini:
+
+# Descomente a linha: 
+extension=php_openssl.dll
+
+# Configure o SMTP
+SMTP = smtp.gmail.com
+smtp_port = 587
